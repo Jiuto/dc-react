@@ -1,8 +1,8 @@
-import { combineReducers } from 'redux';
-import user from './user.js';
+import { combineReducers } from "redux";
+import user from "./user.js";
 
 const reducerModules = {
-  user
+    user
 };
 
 export default combineReducers(reducerModules);
