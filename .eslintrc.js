@@ -8,6 +8,7 @@ module.exports = {
         "plugin:react/recommended",
         "plugin:prettier/recommended"
     ],
+    parser: "babel-eslint",
     parserOptions: {
         "ecmaFeatures": {
             "jsx": true
@@ -22,6 +23,7 @@ module.exports = {
     rules: {
         "generator-star-spacing": "off",
         "no-unused-vars": 1, //禁止出现未使用过的变量
+        "react/prop-types": "off",
         "prettier/prettier": [
             "error",
             {
