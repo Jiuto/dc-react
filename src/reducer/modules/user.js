@@ -1,4 +1,4 @@
-import { basePost } from "@/reducer/axios/base";
+import api from "@/api/service/user";
 
 // Actions
 const LOGIN = "LOGIN";
@@ -25,6 +25,6 @@ export default (state = initialState, action) => {
 export function loginActions(data) {
     return {
         type: LOGIN,
-        payload: basePost("/login", data)
+        payload: api.login
     };
 }
