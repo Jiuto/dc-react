@@ -1,5 +1,5 @@
 {
-    "name": "init-react-templates",
+    "name": "dc-react",
     "version": "1.0.0",
     "description": "a react project",
     "main": "index.js",
@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Jiuto/init-react-templates.git"
+        "url": "git+https://github.com/Jiuto/dc-react.git"
     },
     "dependencies": {
         "antd": "^4.10.3",
@@ -71,7 +71,7 @@
     "author": "jiuto",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/Jiuto/init-react-templates/issues"
+        "url": "https://github.com/Jiuto/dc-react/issues"
     },
-    "homepage": "https://github.com/Jiuto/init-react-templates#readme"
+    "homepage": "https://github.com/Jiuto/dc-react#readme"
 }
