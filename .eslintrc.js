@@ -1,4 +1,5 @@
 module.exports = {
+    root: true,
     env: {
         "browser": true,
         "es6": true
@@ -13,12 +14,14 @@ module.exports = {
         "ecmaFeatures": {
             "jsx": true
         },
-        "ecmaVersion": 11,
+        "ecmaVersion": 6,
         "sourceType": "module"
     },
     plugins: ["react", "prettier"],
     globals: {
-        "module": true
+        "module": true,
+        "_": true,
+        "$": true,
     },
     rules: {
         "generator-star-spacing": "off",
